@@ -61,6 +61,10 @@
       width: auto;
       justify-content: baseline;
     }
+
+    &:active {
+      opacity: 0.3;
+    }
   }
 
   &__academy-text {
@@ -85,5 +89,13 @@
     background-color: #666666;
     width: 27px;
     height: 34px;
+
+    &:hover {
+      background-color: #68b738;
+    }
+
+    &:focus {
+      background-color: #68b738;
+    }
   }
 }
